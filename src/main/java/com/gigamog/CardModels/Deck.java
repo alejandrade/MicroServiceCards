@@ -1,9 +1,9 @@
-package com.gigamog.CardModels;
+package com.gigamog.cardmodels;
 
 import java.util.ArrayList;
 
-import com.gigamog.Utils.DataStorageModule;
-import com.gigamog.Utils.ShuffleAlgorithm;
+import com.gigamog.datastore.DataStorageModule;
+import com.gigamog.shufflealgorithms.ShuffleAlgorithm;
 
 public class Deck extends Jsonable{
 	

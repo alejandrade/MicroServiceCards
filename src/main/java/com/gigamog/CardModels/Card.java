@@ -1,10 +1,10 @@
-package com.gigamog.CardModels;
+package com.gigamog.cardmodels;
 
 public class Card extends Jsonable {
 
 	/*
-	 * this is just a card object, makes things easier to work with
-	 * nothing special going on here
+	 * this is just a card object, makes things easier to work with nothing
+	 * special going on here
 	 */
 
 	private String deckName;

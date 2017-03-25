@@ -3,15 +3,15 @@ import java.util.Random;
 import org.junit.Assert;
 import org.junit.Test;
 
-import com.gigamog.CardModels.Deck;
-import com.gigamog.CardModels.Decks;
 import com.gigamog.Starter;
-import com.gigamog.CardModels.Card;
+import com.gigamog.cardmodels.Card;
+import com.gigamog.cardmodels.Deck;
+import com.gigamog.cardmodels.Decks;
 import com.google.gson.Gson;
 
 public class CardEndpointTester {
 
-	String currentUrls = "http://localhost:" + Starter.DEFAULT_PORT + Starter.DEFAULT_PATH;
+	String currentUrls = "http://localhost:" + Starter.DEFAULT_PORT + Starter.DEFAULT_PATH + "/v1/card";
 	Gson gson = new Gson();
 
 	/*
@@ -99,7 +99,7 @@ public class CardEndpointTester {
 		}
 
 		Resp respList = HttpUtil.HttpGet(currentUrls + "/");
-
+		
 		Decks decks = gson.fromJson(respList.getBody(), Decks.class);
 		Assert.assertTrue(decks.getNumberOfDecks() > 9);
 

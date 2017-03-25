@@ -1,4 +1,4 @@
-package com.gigamog.CardModels;
+package com.gigamog.cardmodels;
 
 import java.util.ArrayList;
 

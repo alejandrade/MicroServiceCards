@@ -3,18 +3,17 @@ import java.util.HashSet;
 import org.junit.Assert;
 import org.junit.Test;
 
-import com.gigamog.CardModels.Deck;
-import com.gigamog.CardModels.Card;
-import com.gigamog.Utils.ModernShuffleAlgorithm;
-import com.gigamog.Utils.ShuffleAlgorithm;
+import com.gigamog.cardmodels.Card;
+import com.gigamog.cardmodels.Deck;
+import com.gigamog.shufflealgorithms.ModernShuffleAlgorithm;
+import com.gigamog.shufflealgorithms.ShuffleAlgorithm;
+import com.gigamog.utils.ConfigValues;
 
 
 public class ShuffleTester {
 	
-	//we instantiate the algorithm here so that when we create new ones we can run them against the same testcases
-	ShuffleAlgorithm alg = new ModernShuffleAlgorithm();
-	
-	
+	//we grab algorithm from config file so we can test it before deploying
+	ShuffleAlgorithm alg = ConfigValues.getShuffleAlgorithm();
 	
 	@Test
 	public void testModernShuffleNotEqual(){
