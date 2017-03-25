@@ -64,6 +64,16 @@ Documentation
 =============
 
 
+Setup
+-----
+
+In order to start the software just run the class called **Starter.java**.  This should open your default browser to a page with a link to this documentation pointer to the endpoints. The default uri is http://localhost:8081/NikeDemo. If you would like to run on a different port or default path simply change the **DEFAULT_PORT**and the **DEFAULT_PATH** variable , this would ideally go into a config file.
+
+Once started if you would like to make sure everything is working well you may run the project as a jUnit test.
+
+These junit tests will run each endpoint. If you would like to run them your self, please refer to the endpoint section of this documentation.
+
+
 ----------
 
 
@@ -129,15 +139,6 @@ Once this is done you can change the **SHUFFLE_ALGORITHM** variable up to to you
 ----------
 
 
-Setup
------
-
-In order to start the software just run the class called **Starter.java**.  This should open your default browser to a page with a link to this documentation pointer to the endpoints. The default uri is http://localhost:8081/NikeDemo. If you would like to run on a different port or default path simply change the **DEFAULT_PORT**and the **DEFAULT_PATH** variable , this would ideally go into a config file.
-
-Once started if you would like to make sure everything is working well you may run the project as a jUnit test. If all goes well then the following are the endpoints.
-
-
-----------
 
 
 Error Response
