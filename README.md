@@ -12,9 +12,10 @@ Table of Contents
  - [My Thoughts](#my-thoughts)  
  - [Documentation](#documentation)
  - [Setup](#setup)
- - [Error Response](#error-response)
- - [Endpoints](#endpoints)
-
+ - [Installing New DataSouce](#installing-new-db)
+ - [Installing New Shuffle](#installing-new-shuffle)
+ -  [Error Response](#error-response)
+ -  [Endpoints](#endpoints)
 
 ----------
 
@@ -66,7 +67,7 @@ Documentation
 ----------
 
 
-Installing New DataStore
+Installing New Db
 ------------------------
 First create a class in com.gigamog.datastore package. Make sure to implement DataStorageModule interface.
 Once this is done you can write your code in their responding methods.
@@ -92,7 +93,7 @@ with your own datastore class.
 ----------
 
 
-Installing New Algorithm
+Installing New Shuffle
 ------------------------
 
 First create a class in the com.gigamog.shufflealgorithm package. Make sure to implement ShuffleAlgorithm interface. In the run method write your algorithm. 
