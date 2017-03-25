@@ -1,8 +1,8 @@
-package com.gigamog.Utils;
+package com.gigamog.utils;
 
 import java.util.ArrayList;
 
-import com.gigamog.CardModels.Card;
+import com.gigamog.cardmodels.Card;
 
 
 //all shufles alforithms should implement this

@@ -1,9 +1,9 @@
-package com.gigamog.Utils;
+package com.gigamog.utils;
 
 import java.util.ArrayList;
 import java.util.Random;
 
-import com.gigamog.CardModels.Card;
+import com.gigamog.cardmodels.Card;
 
 
 
