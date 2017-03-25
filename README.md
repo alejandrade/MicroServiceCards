@@ -29,7 +29,7 @@ My Thoughts
 
 Firstly I would like to say thanks for the opportunity, I appreciate it, and I hope you enjoy reading my project.
 
-That said, I stayed true to the time limit. I only worked on Saturday and I kept it from 9 to 5ish. Because of the time constraints I decided to cut some things off (like you asked in the requirements). Small disclaimer, I read the specs on Wednesday so I some time to plan it before I began coding. I decided to make sure all the features I deemed invaluable where solid before I splurged on the extras. I did however make sure that any features I did not implement where very easy to do so in the future by me or anyone else.
+That said, I stayed true to the time limit. I only worked on Saturday. Because of the time constraints I decided to cut some things off (like you asked in the requirements). Small disclaimer, I read the specs on Wednesday so I had some time to plan it before I began coding. I decided to make sure all the features I deemed invaluable where solid before I splurged on the extras. I did however make sure that any features I did not implement where very easy to do so in the future by me or anyone else.
 
 First lets begin with the features that I implemented. 
 
