@@ -176,10 +176,15 @@ Creating a Deck
 ---------------
 
 **Method:** PUT
+
 **Path:** /v1/card/{deck_name}
+
 **Description:** creation of a new named deck. This endpoint will overwrite an existing deck with the same name
+
 **Response Code:** 200
+
 **Response:**
+
 ```
 {
    "deckName":"standard",
@@ -209,10 +214,15 @@ Shuffling a Deck
 ---------------
 
 **Method:** POST
+
 **Path:** /v1/card/{deck_name}
+
 **Description:** Request to shuffle an existing named deck. This endpoint will also return a shuffled deck. I decided that a user will more often than not want his deck after shuffling. This will save us one trip to the service.
+
 **Response Code:** 200
+
 **Response:**
+
 ```
 {
    "deckName":"standard",
@@ -242,10 +252,15 @@ List of all Decks
 ---------------
 
 **Method:** GET
+
 **Path:** /v1/card/
-**Description:** list of the current decks persisted in the service. I also added number of decks. It just seems like a good idea. 
+
+**Description:** list of the current decks persisted in the service. I also added number of decks. It just seems like a good idea.
+ 
 **Response Code:** 200
+
 **Response:**
+
 ```
 {
    "numberOfDecks":2,
@@ -295,10 +310,15 @@ Get a Single Deck
 ---------------
 
 **Method:** GET
+
 **Path:** /v1/card/{deck_name}
+
 **Description:** a named deck in its current sorted/shuffled order
+
 **Response Code:** 200
+
 **Response:**
+
 ```
 {
    "deckName":"standard",
@@ -328,10 +348,16 @@ Delete a Deck
 ---------------
 
 **Method:** DELETE
+
 **Path:** /v1/card/{deck_name}
+
 **Description:** delete's a named deck 
+
 **Response Code:** 204
+
 **Response:**
+
+
 ```
 Empty Response
 ```
